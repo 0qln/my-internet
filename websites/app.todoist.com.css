@@ -66,10 +66,6 @@ header>div {
     border-color: transparent !important;
 }
 
-:root {
-    --product-library-background-base-primary: transparent !important;
-}
-
 /* todoist-sidebar hover */
 .app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) {
     min-width: 24px !important;
