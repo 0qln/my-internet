@@ -58,6 +58,8 @@ header>div,
 .theme_dark .task_list_item__actions__active,
 .section,
 .loading_screen,
+.task_editor__editing_area,
+.task_editor__description_field,
 div[data-expansion-panel-header="true"] {
     background-color: transparent !important;
     background-image: none !important;
@@ -65,6 +67,10 @@ div[data-expansion-panel-header="true"] {
 
 header>div {
     border-color: transparent !important;
+}
+
+.task_editor {
+    background: rgba(50, 50, 50, 0.44);
 }
 
 /* todoist-sidebar hover */
