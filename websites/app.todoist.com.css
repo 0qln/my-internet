@@ -67,7 +67,7 @@ header>div {
 }
 
 :root {
-    --product-library-background-base-primary: transparent: !important;
+    --product-library-background-base-primary: transparent !important;
 }
 
 /* todoist-sidebar hover */
