@@ -40,17 +40,17 @@ loading_screen,
 .layout__content-wrapper,
 .head.notfixed,
 .main-container,
-#app > div,
-.btm-nav > a,
+#app>div,
+.btm-nav>a,
 .oc-content--main,
 body.dark_mode,
 body.light_mode,
-text-div > textarea,
-#todoist_app > div:has(> .app-sidebar-container),
-#todoist_app > div > div.app-sidebar-container > div > nav,
-#todoist_app > div > div.app-sidebar-container > div > nav > div,
-#todoist_app > div > div:has(> #content),
-header > div,
+text-div>textarea,
+#todoist_app>div:has(> .app-sidebar-container),
+#todoist_app>div>div.app-sidebar-container>div>nav,
+#todoist_app>div>div.app-sidebar-container>div>nav>div,
+#todoist_app>div>div:has(> #content),
+header>div,
 .task_list_item,
 .task_list_item:hover .task_list_item__actions,
 .task_list_item .task_list_item__actions__active,
@@ -58,57 +58,65 @@ header > div,
 .theme_dark .task_list_item__actions__active,
 .section,
 div[data-expansion-panel-header="true"] {
-  background-color: transparent !important;
-  background-image: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+header>div {
+    border-color: transparent !important;
+}
+
+:root {
+    --product-library-background-base-primary: transparent: !important;
 }
 
 /* todoist-sidebar hover */
-.app-sidebar-container > div:has(> nav > div > div > div > button[aria-expanded="true"]) {
-  min-width: 24px !important;
-  overflow: hidden !important;
-  transition:
-    min-width 0.3s,
-    width 0.3s,
-    margin 0.3s !important;
+.app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) {
+    min-width: 24px !important;
+    overflow: hidden !important;
+    transition:
+        min-width 0.3s,
+        width 0.3s,
+        margin 0.3s !important;
 }
 
-.app-sidebar-container > div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) {
-  width: 24px !important;
-  margin: 5px !important;
+.app-sidebar-container>div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) {
+    width: 24px !important;
+    margin: 5px !important;
 }
 
-.app-sidebar-container > div:has(> nav > div > div > div > button[aria-expanded="true"]) * {
-  transition:
-    margin 0.3s,
-    padding 0.3s !important;
+.app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) * {
+    transition:
+        margin 0.3s,
+        padding 0.3s !important;
 }
 
-.app-sidebar-container > div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) * {
-  margin: 0px !important;
-  padding: 0px !important;
+.app-sidebar-container>div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) * {
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
-.app-sidebar-container > div:has(> nav > div > div > div > button[aria-expanded="true"]) div[data-expansion-panel-header="true"] {
-  transition: height 0.3s !important;
-  overflow: hidden !important;
+.app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) div[data-expansion-panel-header="true"] {
+    transition: height 0.3s !important;
+    overflow: hidden !important;
 }
 
-.app-sidebar-container > div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) div[data-expansion-panel-header="true"] {
-  height: 0 !important;
+.app-sidebar-container>div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) div[data-expansion-panel-header="true"] {
+    height: 0 !important;
 }
 
-.app-sidebar-container > div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) > nav > div > div > div:has(> button[aria-controls="sidebar"]) {
-  display: none !important;
+.app-sidebar-container>div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"])>nav>div>div>div:has(> button[aria-controls="sidebar"]) {
+    display: none !important;
 }
 
-.app-sidebar-container > div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) button[aria-label="Settings"] svg {
-  opacity: 0 !important;
-  transition: opactiy 0.3s !important;
+.app-sidebar-container>div:not(:hover):has(> nav > div > div > div > button[aria-expanded="true"]) button[aria-label="Settings"] svg {
+    opacity: 0 !important;
+    transition: opactiy 0.3s !important;
 }
 
 /* darkreader */
 :root {
-  --darkreader-background-ffffff: transparent !important;
+    --darkreader-background-ffffff: transparent !important;
 }
 
 /* no footer */
@@ -116,5 +124,5 @@ footer,
 mfe-footer-pharos-footer,
 .footer,
 #footer {
-  display: none !important;
+    display: none !important;
 }
