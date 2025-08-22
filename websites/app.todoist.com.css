@@ -95,7 +95,7 @@ div#week-view-container>div:first-child>div:first-child>div:first-child {
     background-color: transparent !important;
 }
 
-div[data-column-date]>div>div {
+div[data-column-date]>div:first-child>div {
     background: rgba(50, 50, 50, 0.44) !important;
 }
 
