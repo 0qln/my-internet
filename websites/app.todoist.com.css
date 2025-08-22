@@ -90,7 +90,7 @@ div[data-expansion-panel-header="true"]:has(* button[aria-expanded="false"]) {
     position: unset !important;
 }
 
-div#week-view-container>div:first>div:first>div:first {
+div#week-view-container>div:first-child>div:first-child>div:first-child {
     backdrop-filter: blur(5px) !important;
     background-color: transparent !important;
 }
