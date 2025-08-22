@@ -73,6 +73,14 @@ header>div {
     background: rgba(50, 50, 50, 0.44);
 }
 
+li:not(.current)>div[data-sidebar-list-item="true"]>div:hover {
+    background-color: #5f5f5f70 !important;
+}
+
+li.current>div[data-sidebar-list-item="true"]>div:hover {
+    background-color: #d04a4a40 !important;
+}
+
 /* todoist-sidebar hover */
 .app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) {
     min-width: 24px !important;
