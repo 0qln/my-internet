@@ -85,6 +85,10 @@ li.current>div[data-sidebar-list-item="true"]>div {
     --product-library-selectable-secondary-selected-fill: #d04a4a40 !important;
 }
 
+div[data-expansion-panel-header="true"]:has(* button[aria-expanded="true"]) {
+    position: unset !important;
+}
+
 /* todoist-sidebar hover */
 .app-sidebar-container>div:has(> nav > div > div > div > button[aria-expanded="true"]) {
     min-width: 24px !important;
