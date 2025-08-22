@@ -86,7 +86,7 @@ li.current>div[data-sidebar-list-item="true"]>div {
 }
 
 div[data-expansion-panel-header="true"]:has(* button[aria-expanded="true"]) {
-    position: unset !important;
+    position: relative !important;
 }
 
 /* todoist-sidebar hover */
