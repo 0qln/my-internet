@@ -73,7 +73,7 @@ header>div {
     background: rgba(50, 50, 50, 0.44);
 }
 
-li:not(.current)>div[data-sidebar-list-item="true"]>div:hover {
+li:not(.current)>div[data-sidebar-list-item="true"]>div {
     background-color: #5f5f5f70 !important;
 }
 
