@@ -71,7 +71,7 @@ header>div {
 }
 
 .task_editor {
-    background: rgba(50, 50, 50, 0.44);
+    background: rgba(50, 50, 50, 0.44) !important;
 }
 
 li:not(.current)>div[data-sidebar-list-item="true"]>div:hover {
@@ -96,7 +96,11 @@ div#week-view-container>div:first-child>div:first-child>div:first-child {
 }
 
 div[data-column-date]>div>div {
-    background-color: transparent !important;
+    background: rgba(50, 50, 50, 0.44) !important;
+}
+
+div[data-column-date]>div {
+    border-bottom: none !important;
 }
 
 /* todoist-sidebar hover */
